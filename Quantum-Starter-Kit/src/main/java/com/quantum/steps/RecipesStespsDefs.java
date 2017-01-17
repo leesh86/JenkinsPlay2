@@ -30,6 +30,7 @@ public class RecipesStespsDefs {
 	
 	private QAFExtendedWebDriver driver = new WebDriverTestBase().getDriver();
 	
+	
 	@Given("^I am on the home page$")
 	public void validateHomePage() {
 
@@ -71,11 +72,44 @@ public class RecipesStespsDefs {
 		click("doneBtn");
 	}
 	
-	@And("^I add ingredients with the following data$")
-	public void addIngredients(Map<Object,Object> table) {
-		//Initialize data table 
-	      System.out.println(table.get(1)); 
-
+//	@And("^I add ingredients with the following data$")
+//	public void addIngredients(Map<Object,Object> table) {
+//		//Initialize data table 
+//	      System.out.println(table.get(1)); 
+//
+//	}
+	
+	
+	@And("^I choose a photo$")
+	public void choosePhoto() {
+		click("choosePhoto");
+		click("cameraMomentsLib");
+		click("photo");
+	}
+	
+	@And("^I navigate back to home page$")
+	public void goBackToHomePage() {
+		click("doneBtn");
+		click("back");
+		validateHomePage();
+	}
+	
+	@Then("^I expect the new recipe named \"([^\"]*)\" to be added to the top of the list$")
+	public void validateRecipeAdded(String recipeName) {
+		Assert.assertEquals(driver.findElement("firstRecipeOnList").getText(), recipeName);
+	}
+	
+	@And("^I delete first recipe$")
+	public void deleteRecipe() {
+		click("editRecipeBtn");
+		click("deleteFirstRecipe");
+		click("deleteBtn");
+		click("doneBtn");
+	}
+	
+	@Then("^I expect recipe name \"([^\"]*)\" to be deleted")
+	public void validateRecipeDeleted(String recipeName) {
+		Assert.assertNotEquals(driver.findElement("firstRecipeOnList").getText(), recipeName);
 	}
 
 	

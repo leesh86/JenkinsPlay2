@@ -35,9 +35,13 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
 				<configuration>
-					<outputDirectory>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/main/resources/config/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+
+			<!--  		<outputDirectory>
 						${project.build.directory}
-					</outputDirectory>
+					</outputDirectory> -->
 				</configuration>
 			</plugin>
 			<plugin>
