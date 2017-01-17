@@ -1,0 +1,48 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "beforeClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1473177563670,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "name": "f",
+        "groups": []
+      },
+      "dependsOn": [],
+      "startTime": 1473177565588,
+      "duration": 41,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1473177565650,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

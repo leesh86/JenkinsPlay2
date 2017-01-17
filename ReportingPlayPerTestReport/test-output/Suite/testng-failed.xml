@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="mcm" value="demo.perfectomobile.com"/>
+  <parameter name="browserName" value="mobileOS"/>
+  <parameter name="mcmPassword" value="Welcome1701"/>
+  <parameter name="mcmUser" value="lees@perfectomobile.com"/>
+  <parameter name="deviceName" value="B187DA890752D02463279FCA08C63390A76B33DA"/>
+  <test name="Test iOS(failed)" parallel="tests">
+    <parameter name="deviceName" value="B187DA890752D02463279FCA08C63390A76B33DA"/>
+    <classes>
+      <class name="ReportingTest">
+        <methods>
+          <include name="Test2"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- ReportingTest -->
+    </classes>
+  </test> <!-- Test iOS(failed) -->
+  <test name="Test Android(failed)" parallel="tests">
+    <parameter name="deviceName" value="5CDDB2F1"/>
+    <classes>
+      <class name="ReportingTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- ReportingTest -->
+    </classes>
+  </test> <!-- Test Android(failed) -->
+</suite> <!-- Failed suite [Suite] -->

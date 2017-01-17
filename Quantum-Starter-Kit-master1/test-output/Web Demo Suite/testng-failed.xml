@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Web Demo Suite]" parallel="tests">
+  <parameter name="driver.capabilities.model" value="Galaxy.*"/>
+  <listeners>
+    <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+  </listeners>
+  <test thread-count="10" name="Web Scenarios Android Test">
+    <parameter name="driver.capabilities.model" value="Galaxy.*"/>
+    <groups>
+      <run>
+        <include name="@Web"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+    </classes>
+  </test> <!-- Web Scenarios Android Test -->
+</suite> <!-- Failed suite [Web Demo Suite] -->

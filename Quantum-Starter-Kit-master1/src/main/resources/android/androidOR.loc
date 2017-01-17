@@ -1,0 +1,9 @@
+// NATIVE CONTEXT
+homePage = xpath=//*[@resource-id='com.kohls.mcommerce.opal:id/id_home_gridView']/android.widget.ImageView[1]
+
+// WEBVIEW CONTEXT
+loginUser = xpath=//*[@id="fmg-usr"]
+
+
+
+

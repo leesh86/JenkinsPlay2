@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://demo.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=lees@perfectomobile.com_RemoteWebDriver_17-01-10_15_15_00_25581, available=false, description=Lee Raj, language=English, operatorCode=310030, deviceName=41EEF156EA10EDAB41632651F7AD2A4C4CB502ED, deviceId=41EEF156EA10EDAB41632651F7AD2A4C4CB502ED, operatorName=AT&T, resolution=750x1334, platform=ANY, wifiMacAddress=48:43:7c:c2:14:58, manufacturer=Apple, mode=CONNECTED, password=, cradleId=WF-CG29-55/VIRTUAL/01, osVersion=9.3.4, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170110/RemoteWebDriver_17-01-10_15_15_00_25581.xml&ownerId=lees@perfectomobile.com&sharingCode=37c267b7-aeab-4c80-9833-e531ca10c17f, inUse=true, takesScreenshot=true, javascriptEnabled=true, model=iPhone-6, platformName=iOS, firmware=9.2.1, applicationName=Recipes, rotatable=true, testGridReportUrl=https://demo.reporting-01.perfectomobile.com?externalId[0]=lees@perfectomobile.com_RemoteWebDriver_17-01-10_15_15_00_25581, os=iOS, entityType=appium_driver, allocatedTo=lees@perfectomobile.com, bundleId=com.example.apple-samplecode.Recipes, serverConnector=, executionId=lees@perfectomobile.com_RemoteWebDriver_17-01-10_15_15_00_25581, webdriver.remote.sessionid=2dcec4b0-f541-487d-8713-8137524cb297, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, linkType=lab, reportKey=PRIVATE:RemoteWebDriver/170110/RemoteWebDriver_17-01-10_15_15_00_25581.xml, operatorCountry=United States of America, windTunnelReportUrl=https://demo.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170110/RemoteWebDriver_17-01-10_15_15_00_25581.xml&ownerId=lees@perfectomobile.com&sharingCode=37c267b7-aeab-4c80-9833-e531ca10c17f, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}] ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Adding a recipe █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on the home page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on the home page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: And I navigate to add another recipe ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: And I navigate to add another recipe ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I add a new recipe name "Blabla" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I add a new recipe name "Blabla" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I navigate to edit recipe ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I navigate to edit recipe ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: And I choose category ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: And I choose category ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on the home page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //*[@value="Recipes"] present : Actual By.xpath: //*[@value="Recipes"] present <a href="img/Adding a recipe_gmgwlv8cio1z53487.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I navigate to add another recipe</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I add a new recipe name "Blabla"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I navigate to edit recipe</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I choose category</div><div  class="warn"><span class="warn-label">W </span>And I add ingredients with the following data{"amount":"aslak@cucumber.io","name":"Aslak"} :: Not Found.</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Appium Demo Suite" duration-ms="62797" started-at="2017-01-10T15:14:59Z" finished-at="2017-01-10T15:16:02Z">
+    <groups>
+      <group name="@recipes">
+        <method signature="src.main.resources.scenarios.Recipes.feature.Adding a recipe()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Adding a recipe" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @recipes -->
+    </groups>
+    <test name="IOS Test" duration-ms="62797" started-at="2017-01-10T15:14:59Z" finished-at="2017-01-10T15:16:02Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Adding a recipe" name="setupSuit" is-config="true" duration-ms="19" started-at="2017-01-10T17:14:59Z" finished-at="2017-01-10T17:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cd3fee8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Adding a recipe" name="setupTest" is-config="true" duration-ms="15" started-at="2017-01-10T17:14:59Z" finished-at="2017-01-10T17:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cd3fee8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Adding a recipe" name="setup" is-config="true" duration-ms="3" started-at="2017-01-10T17:14:59Z" finished-at="2017-01-10T17:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cd3fee8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Adding a recipe" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-01-10T17:15:00Z" finished-at="2017-01-10T17:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@cd3fee8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="SKIP" signature="Adding a recipe()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Adding a recipe" name="Adding a recipe" duration-ms="51167" started-at="2017-01-10T17:15:00Z" finished-at="2017-01-10T17:15:51Z">
+          <exception class="com.qmetry.qaf.automation.step.StepNotFoundException">
+            <message>
+              <![CDATA[And I add ingredients with the following data{"amount":"aslak@cucumber.io","name":"Aslak"}@src/main/resources/scenarios/Recipes.feature#11 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.step.StepNotFoundException: And I add ingredients with the following data{"amount":"aslak@cucumber.io","name":"Aslak"}@src/main/resources/scenarios/Recipes.feature#11 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.
+	at .And I add ingredients with the following data{"amount":"aslak@cucumber.io","name":"Aslak"}(src/main/resources/scenarios/Recipes.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.step.StepNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on the home page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on the home page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: And I navigate to add another recipe ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: And I navigate to add another recipe ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I add a new recipe name "Blabla" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I add a new recipe name "Blabla" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I navigate to edit recipe ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I navigate to edit recipe ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: And I choose category ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: And I choose category ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on the home page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //*[@value="Recipes"] present : Actual By.xpath: //*[@value="Recipes"] present <a href="img/Adding a recipe_gmgwlv8cio1z53487.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I navigate to add another recipe</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I add a new recipe name "Blabla"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I navigate to edit recipe</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I choose category</div><div  class="warn"><span class="warn-label">W </span>And I add ingredients with the following data{"amount":"aslak@cucumber.io","name":"Aslak"} :: Not Found.</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Adding a recipe -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Adding a recipe" name="afterMethod" is-config="true" duration-ms="7" started-at="2017-01-10T17:15:51Z" finished-at="2017-01-10T17:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cd3fee8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Adding a recipe status=SKIP method=src.main.resources.scenarios.Recipes.feature.Adding a recipe()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=▄ ▄ ▄ BEGIN STEP: Given I am on the home page ▄ ▄ ▄]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Adding a recipe" name="afterClass" is-config="true" duration-ms="9" started-at="2017-01-10T17:15:51Z" finished-at="2017-01-10T17:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cd3fee8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Adding a recipe" name="afterTest" is-config="true" duration-ms="11553" started-at="2017-01-10T17:15:51Z" finished-at="2017-01-10T17:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cd3fee8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- IOS Test -->
+  </suite> <!-- Appium Demo Suite -->
+</testng-results>
