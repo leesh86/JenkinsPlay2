@@ -8,11 +8,13 @@ import static com.quantum.steps.PerfectoApplicationSteps.iSet;
 import java.util.List;
 import java.util.Map;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 
 import com.qmetry.qaf.automation.step.QAFTestStepProvider;
 import com.qmetry.qaf.automation.ui.WebDriverTestBase;
 import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver;
+import com.qmetry.qaf.automation.util.LocatorUtil;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
@@ -100,19 +102,33 @@ public class RecipesStespsDefs {
 	}
 	
 	@And("^I delete first recipe$")
-	public void deleteRecipe() {
+	public void deleteFirstRecipe() {
 		click("editRecipeBtn");
 		click("deleteFirstRecipe");
 		click("deleteBtn");
 		click("doneBtn");
 	}
 	
+	@And("^I delete recipe in position number \"([^\"]*)\"$")
+	public void deleteRecipeByPosition(String pos) {
+		click("editRecipeBtn");
+		driver.findElement(By.xpath(getDynamicXpath("deleteRecipeByPosition", pos))).click();
+		click("deleteBtn");
+		click("doneBtn");
+	}
+	
+	
 	@Then("^I expect recipe name \"([^\"]*)\" to be deleted")
 	public void validateRecipeDeleted(String recipeName) {
 		Assert.assertNotEquals(driver.findElement("firstRecipeOnList").getText(), recipeName);
 	}
 
-	
+	private String getDynamicXpath(String loc, String replace) {
+		String by = LocatorUtil.getBy(loc).toString();
+		String xpathAfterReplacement = by.substring(by.indexOf("//")).replace("<<<>>>", replace);
+		System.out.println("Xpath After Replace: " + xpathAfterReplacement);
+		return xpathAfterReplacement;
+	}
 	
 
 	

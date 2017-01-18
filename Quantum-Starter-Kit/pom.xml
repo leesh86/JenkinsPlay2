@@ -9,7 +9,7 @@
 
 	<properties>
 		<testngXmlDir>src/main/resources/config</testngXmlDir>
-		<testngXmlFile>testng_web.xml</testngXmlFile>
+		<testngXmlFile>testng_appium.xml</testngXmlFile>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<qaf.version>2.1.8</qaf.version>
 		<reportium-sdk.version>1.0.0</reportium-sdk.version>
@@ -31,19 +31,6 @@
 		</resources>
 
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<configuration>
-					<suiteXmlFiles>
-						<suiteXmlFile>src/main/resources/config/testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
-
-			<!--  		<outputDirectory>
-						${project.build.directory}
-					</outputDirectory> -->
-				</configuration>
-			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -87,6 +74,10 @@
 			<url>https://qmetry.github.io/qaf/dist</url>
 		</repository>
 		<repository>
+			<releases>
+				<updatePolicy>always</updatePolicy>
+				<checksumPolicy>ignore</checksumPolicy>
+			</releases>
 			<id>ps</id>
 			<url>https://github.com/Project-Quantum/mvn/raw/master/repository</url>
 		</repository>
@@ -123,14 +114,14 @@
 			<version>${cukes.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-api</artifactId>
-			<version>${selenium.version}</version>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>4.1.2</version>
 		</dependency>
 		<dependency>
 			<groupId>com.qmetry</groupId>
 			<artifactId>qaf</artifactId>
-			<version>2.1.9-patch1</version>
+			<version>2.1.10-RC2</version>
 			<exclusions>
 				<exclusion>
 					<groupId>info.cukes</groupId>
@@ -150,4 +141,3 @@
 		</dependency>
 	</dependencies>
 </project>
-
