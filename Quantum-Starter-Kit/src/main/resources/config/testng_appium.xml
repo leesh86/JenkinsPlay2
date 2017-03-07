@@ -3,6 +3,9 @@
 	<listeners>
 		<listener class-name="com.quantum.listerners.QuantumReportiumListener" />
 	</listeners>
+	
+	<parameter name="driver.capabilities.user" value="${lab.username}"></parameter>
+	<parameter name="driver.capabilities.password" value="${lab.password}"></parameter>
 
 	<test name="IOS Test1" enabled="true">
 		<parameter name="driver.capabilities.bundleId" value="com.example.apple-samplecode.Recipes"></parameter>
