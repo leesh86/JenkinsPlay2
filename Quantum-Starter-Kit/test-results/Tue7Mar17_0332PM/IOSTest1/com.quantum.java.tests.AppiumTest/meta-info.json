@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "Test",
+        "sign": "AppiumTest.Test()[pri:0, instance:com.quantum.java.tests.AppiumTest@3c22fc4c]"
+      },
+      "dependsOn": [],
+      "startTime": 1488893524838,
+      "duration": 10977,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -8,9 +8,6 @@ Scenario: Adding a recipe
 	When I add a new recipe name "Blabla" 
 	When I navigate to edit recipe 
 	And I choose category 
-	#	And I add ingredients with the following data 
-	#		| name   | amount             |
-	#		| Aslak  | aslak@cucumber.io  |
 	And I choose a photo 
 	And I navigate back to home page 
 	Then I expect the new recipe named "Blabla" to be added to the top of the list

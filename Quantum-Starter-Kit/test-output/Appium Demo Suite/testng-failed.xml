@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Appium Demo Suite]" parallel="tests">
+  <parameter name="driver.capabilities.user" value="${lab.username}"/>
+  <parameter name="driver.capabilities.password" value="${lab.password}"/>
   <parameter name="env.resources" value="src/main/resources/ios"/>
-  <parameter name="driver.capabilities.deviceName" value="41EEF156EA10EDAB41632651F7AD2A4C4CB502ED"/>
+  <parameter name="driver.capabilities.deviceName" value="C37BAE1934AE7DD0AE3355F77146C7A65579CAA3"/>
   <parameter name="driver.capabilities.bundleId" value="com.example.apple-samplecode.Recipes"/>
   <listeners>
     <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
   </listeners>
-  <test name="IOS Test">
+  <test name="IOS Test1">
     <parameter name="env.resources" value="src/main/resources/ios"/>
     <parameter name="driver.capabilities.deviceName" value="41EEF156EA10EDAB41632651F7AD2A4C4CB502ED"/>
     <parameter name="driver.capabilities.bundleId" value="com.example.apple-samplecode.Recipes"/>
@@ -19,10 +21,10 @@
     <classes>
       <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
     </classes>
-  </test> <!-- IOS Test -->
-  <test name="IOS Test(failed)" parallel="tests">
+  </test> <!-- IOS Test1 -->
+  <test name="IOS Test2">
     <parameter name="env.resources" value="src/main/resources/ios"/>
-    <parameter name="driver.capabilities.deviceName" value="41EEF156EA10EDAB41632651F7AD2A4C4CB502ED"/>
+    <parameter name="driver.capabilities.deviceName" value="C37BAE1934AE7DD0AE3355F77146C7A65579CAA3"/>
     <parameter name="driver.capabilities.bundleId" value="com.example.apple-samplecode.Recipes"/>
     <groups>
       <run>
@@ -30,18 +32,7 @@
       </run>
     </groups>
     <classes>
-      <class name="com.qmetry.qaf.automation.step.client.Scenario">
-        <methods>
-          <include name="scenario"/>
-          <include name="setupMethod"/>
-          <include name="setupSuit"/>
-          <include name="setupTest"/>
-          <include name="afterClass"/>
-          <include name="setup"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+      <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
     </classes>
-  </test> <!-- IOS Test(failed) -->
+  </test> <!-- IOS Test2 -->
 </suite> <!-- Failed suite [Appium Demo Suite] -->

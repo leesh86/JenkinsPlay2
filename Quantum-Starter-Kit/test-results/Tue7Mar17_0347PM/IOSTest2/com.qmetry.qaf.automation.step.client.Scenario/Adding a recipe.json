@@ -1,0 +1,766 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "validateHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@value=\"Recipes\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 3840
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickAddRecipe",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Add\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 2659
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Add\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 936
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIANavigationBar[1]/UIAStaticText[1], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 2392
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //UIANavigationBar[1]/UIAStaticText[1]",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "getElementText:Add Recipe",
+          "subLogs": [],
+          "duration": 1122
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "insertRecipeName",
+      "args": [
+        "[Blabla]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@value=\"Recipe Name\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 2009
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@value=\"Recipe Name\"]",
+            "{\"id\":\"3\",\"value\":[\"Blabla\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1221
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[saveBtn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@label=\"Save\"], using=xpath}"
+              ],
+              "result": "id: 4",
+              "subLogs": [],
+              "duration": 2922
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@label=\"Save\"]",
+                "{\"id\":\"4\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1175
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIANavigationBar[1]/UIAStaticText[1], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 2252
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //UIANavigationBar[1]/UIAStaticText[1]",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "getElementText:Blabla",
+          "subLogs": [],
+          "duration": 1119
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "goToEditRecipe",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Edit\"], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 1981
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Edit\"]",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1108
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "chooseCategory",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"More Info\"], using=xpath}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 2234
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"More Info\"]",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1011
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[dessertCategory]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@label=\"Dessert\"], using=xpath}"
+              ],
+              "result": "id: 8",
+              "subLogs": [],
+              "duration": 2009
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@label=\"Dessert\"]",
+                "{\"id\":\"8\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 925
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[doneBtn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@label=\"Done\"], using=xpath}"
+              ],
+              "result": "id: 9",
+              "subLogs": [],
+              "duration": 2019
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@label=\"Done\"]",
+                "{\"id\":\"9\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1033
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "choosePhoto",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"choosePhoto\"], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 2943
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"choosePhoto\"]",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 958
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[cameraMomentsLib]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@value=\"Moments\"], using=xpath}"
+              ],
+              "result": "id: 11",
+              "subLogs": [],
+              "duration": 1952
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@value=\"Moments\"]",
+                "{\"id\":\"11\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 947
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[photo]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//UIACollectionView[1]/UIACollectionCell[1], using=xpath}"
+              ],
+              "result": "id: 12",
+              "subLogs": [],
+              "duration": 2090
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //UIACollectionView[1]/UIACollectionCell[1]",
+                "{\"id\":\"12\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1960
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "goBackToHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Done\"], using=xpath}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 4188
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Done\"]",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2026
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[back]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@label=\"Back\"], using=xpath}"
+              ],
+              "result": "id: 14",
+              "subLogs": [],
+              "duration": 4300
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@label=\"Back\"]",
+                "{\"id\":\"14\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1900
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "assertPresent",
+          "args": [
+            "[homePage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@value=\"Recipes\"], using=xpath}"
+              ],
+              "result": "[id: 15]",
+              "subLogs": [],
+              "duration": 4349
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "validateRecipeAdded",
+      "args": [
+        "[Blabla]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+          ],
+          "result": "id: 16",
+          "subLogs": [],
+          "duration": 3006
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+            "{\"id\":\"16\"}"
+          ],
+          "result": "getElementText:Blabla",
+          "subLogs": [],
+          "duration": 921
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "deleteRecipeByPosition",
+      "args": [
+        "[1]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@label=\"Edit\"], using=xpath}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 2222
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@label=\"Edit\"]",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 919
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIATableCell[1]/UIAButton[1], using=xpath}"
+          ],
+          "result": "id: 18",
+          "subLogs": [],
+          "duration": 2510
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //UIATableCell[1]/UIAButton[1]",
+            "{\"id\":\"18\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 912
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[deleteBtn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@label=\"Delete\"], using=xpath}"
+              ],
+              "result": "id: 19",
+              "subLogs": [],
+              "duration": 2433
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@label=\"Delete\"]",
+                "{\"id\":\"19\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 996
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[doneBtn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@label=\"Done\"], using=xpath}"
+              ],
+              "result": "id: 20",
+              "subLogs": [],
+              "duration": 2018
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@label=\"Done\"]",
+                "{\"id\":\"20\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1112
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "validateRecipeDeleted",
+      "args": [
+        "[Blabla]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+          ],
+          "result": "id: 21",
+          "subLogs": [],
+          "duration": 2103
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+            "{\"id\":\"21\"}"
+          ],
+          "result": "getElementText:Chocolate Cake",
+          "subLogs": [],
+          "duration": 1014
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.closeAppByName",
+      "args": [
+        "[Recipes]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on the home page",
+      "type": "TestStepPass",
+      "duration": 8411,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@value=\"Recipes\"] present : Actual By.xpath: //*[@value=\"Recipes\"] present",
+          "type": "Pass",
+          "screenshot": "img/Adding a recipe_8k6fa3g2pmxs46197.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I navigate to add another recipe",
+      "type": "TestStepPass",
+      "duration": 7115,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I add a new recipe name \"Blabla\"",
+      "type": "TestStepPass",
+      "duration": 10884,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'saveBtn'",
+          "type": "TestStepPass",
+          "duration": 4098,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When I navigate to edit recipe",
+      "type": "TestStepPass",
+      "duration": 3091,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I choose category",
+      "type": "TestStepPass",
+      "duration": 9617,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'dessertCategory'",
+          "type": "TestStepPass",
+          "duration": 2936,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'doneBtn'",
+          "type": "TestStepPass",
+          "duration": 3052,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I choose a photo",
+      "type": "TestStepPass",
+      "duration": 11216,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'cameraMomentsLib'",
+          "type": "TestStepPass",
+          "duration": 2903,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'photo'",
+          "type": "TestStepPass",
+          "duration": 4051,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I navigate back to home page",
+      "type": "TestStepPass",
+      "duration": 22367,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'back'",
+          "type": "TestStepPass",
+          "duration": 6202,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "assert 'homePage' is present",
+          "type": "TestStepPass",
+          "duration": 9585,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected By.xpath: //*[@value=\"Recipes\"] present : Actual By.xpath: //*[@value=\"Recipes\"] present",
+              "type": "Pass",
+              "screenshot": "img/Adding a recipe_1pwbtehl3m3l46198.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "message": "Then I expect the new recipe named \"Blabla\" to be added to the top of the list",
+      "type": "TestStepPass",
+      "duration": 3929,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I delete recipe in position number \"1\"",
+      "type": "TestStepPass",
+      "duration": 13629,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'deleteBtn'",
+          "type": "TestStepPass",
+          "duration": 3430,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'doneBtn'",
+          "type": "TestStepPass",
+          "duration": 3131,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I expect recipe name \"Blabla\" to be deleted",
+      "type": "TestStepPass",
+      "duration": 3120,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I close application by name \"Recipes\"",
+      "type": "TestStepPass",
+      "duration": 1054,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}
