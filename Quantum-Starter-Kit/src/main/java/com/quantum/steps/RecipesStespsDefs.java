@@ -35,7 +35,7 @@ public class RecipesStespsDefs {
 	
 	@Given("^I am on the home page$")
 	public void validateHomePage() {
-
+		// making sure we're on the homepage
 		assertLocator("homePage");
 	}
 	
