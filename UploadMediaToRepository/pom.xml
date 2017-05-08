@@ -33,7 +33,7 @@
 				<version>2.18.1</version>
 				<configuration>
 					<systemPropertyVariables>
-						<FILE>${env.file-name}</FILE>
+						<FILE>${env.file.name}</FILE>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
