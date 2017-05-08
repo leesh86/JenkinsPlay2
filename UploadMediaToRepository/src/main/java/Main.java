@@ -31,7 +31,7 @@ public class Main {
 
 
 	public static void main(String[] args) throws IOException {
-		uploadMedia("ps.perfectomobile.com", "lees@perfectomobile.com", "Welcome1701", "${WORKSPACE}/Recipes.ipa", "PRIVATE:applications/Recipes.ipa");
+		uploadMedia("ps.perfectomobile.com", "lees@perfectomobile.com", "Welcome1701", "${file-name}", "PRIVATE:applications/Recipes.ipa");
 	}
 	
 	/**
