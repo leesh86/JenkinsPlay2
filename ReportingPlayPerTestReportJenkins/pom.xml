@@ -25,7 +25,7 @@
 		<reportium-sdk.version>0.0.24</reportium-sdk.version>
 		<selenium.version>2.53.0</selenium.version>
 		<org.json.version>20131018</org.json.version>
-		<testng.groups>["a","b"]</testng.groups>
+		<testng.groups>"a","b"</testng.groups>
 	</properties>
 
 
