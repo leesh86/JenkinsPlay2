@@ -8,11 +8,11 @@
 
 	<test name="Test Android">
 		<parameter name="deviceName" value="30E9D3E3" />
-<!--  		<groups>
+  		<groups>
 			<run>
 				<include name="${testng.groups}" />
 			</run>
-		</groups> -->
+		</groups>
 		<classes>
 			<class name="ReportingTest" />
 		</classes>
