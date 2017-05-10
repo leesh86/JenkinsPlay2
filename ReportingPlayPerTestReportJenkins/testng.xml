@@ -10,7 +10,7 @@
 		<parameter name="deviceName" value="30E9D3E3" />
 		<groups>
 			<run>
-				<include name="${groups}" />
+				<include name="${testng.groups}" />
 			</run>
 		</groups>
 		<classes>
