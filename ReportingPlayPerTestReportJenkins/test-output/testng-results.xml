@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Reporting Suite" duration-ms="46322" started-at="2016-09-21T19:46:47Z" finished-at="2016-09-21T19:47:33Z">
+  <suite name="Reporting Suite" duration-ms="47398" started-at="2017-05-10T15:03:48Z" finished-at="2017-05-10T15:04:36Z">
     <groups>
       <group name="a">
         <method signature="ReportingTest.googleSearch1()[pri:0, instance:ReportingTest@77cd7a0]" name="googleSearch1" class="ReportingTest"/>
-        <method signature="ReportingTest.googleSearch1()[pri:0, instance:ReportingTest@7085bdee]" name="googleSearch1" class="ReportingTest"/>
+        <method signature="ReportingTest.googleSearch1()[pri:0, instance:ReportingTest@73ad2d6]" name="googleSearch1" class="ReportingTest"/>
       </group> <!-- a -->
+      <group name="b">
+        <method signature="ReportingTest.googleSearch2()[pri:0, instance:ReportingTest@73ad2d6]" name="googleSearch2" class="ReportingTest"/>
+      </group> <!-- b -->
     </groups>
-    <test name="Test iOS" duration-ms="38143" started-at="2016-09-21T19:46:47Z" finished-at="2016-09-21T19:47:25Z">
+    <test name="Test Android" duration-ms="40797" started-at="2017-05-10T15:03:48Z" finished-at="2017-05-10T15:04:29Z">
       <class name="ReportingTest">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:ReportingTest@7085bdee]" name="beforeClass" is-config="true" duration-ms="8602" started-at="2016-09-21T22:46:47Z" finished-at="2016-09-21T22:46:55Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:ReportingTest@77cd7a0]" name="beforeClass" is-config="true" duration-ms="16080" started-at="2017-05-10T18:03:48Z" finished-at="2017-05-10T18:04:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[demo.perfectomobile.com]]>
+                <![CDATA[ps.perfectomobile.com]]>
               </value>
             </param>
             <param index="1">
@@ -35,19 +38,19 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[B187DA890752D02463279FCA08C63390A76B33DA]]>
+                <![CDATA[30E9D3E3]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[org.testng.TestRunner@31dc339b]]>
+                <![CDATA[org.testng.TestRunner@2038ae61]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ReportingTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="247" started-at="2016-09-21T22:46:55Z" finished-at="2016-09-21T22:46:56Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ReportingTest@77cd7a0]" name="beforeMethod" is-config="true" duration-ms="162" started-at="2017-05-10T18:04:05Z" finished-at="2017-05-10T18:04:05Z">
           <params>
             <param index="0">
               <value>
@@ -58,114 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="googleSearch1()[pri:0, instance:ReportingTest@7085bdee]" name="googleSearch1" duration-ms="9448" started-at="2016-09-21T22:46:56Z" finished-at="2016-09-21T22:47:05Z">
+        <test-method status="PASS" signature="googleSearch1()[pri:0, instance:ReportingTest@77cd7a0]" name="googleSearch1" duration-ms="6661" started-at="2017-05-10T18:04:05Z" finished-at="2017-05-10T18:04:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearch1 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ReportingTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="235" started-at="2016-09-21T22:47:05Z" finished-at="2016-09-21T22:47:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=googleSearch1 status=SUCCESS method=ReportingTest.googleSearch1()[pri:0, instance:ReportingTest@7085bdee] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ReportingTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="231" started-at="2016-09-21T22:47:05Z" finished-at="2016-09-21T22:47:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ReportingTest.googleSearch2()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="googleSearch2()[pri:0, instance:ReportingTest@7085bdee]" name="googleSearch2" duration-ms="8541" depends-on-groups="a" started-at="2016-09-21T22:47:06Z" finished-at="2016-09-21T22:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleSearch2 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ReportingTest@7085bdee]" name="afterMethod" is-config="true" duration-ms="229" started-at="2016-09-21T22:47:14Z" finished-at="2016-09-21T22:47:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=googleSearch2 status=SUCCESS method=ReportingTest.googleSearch2()[pri:0, instance:ReportingTest@7085bdee] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:ReportingTest@7085bdee]" name="afterClass" is-config="true" duration-ms="10558" started-at="2016-09-21T22:47:14Z" finished-at="2016-09-21T22:47:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@31dc339b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- ReportingTest -->
-    </test> <!-- Test iOS -->
-    <test name="Test Android" duration-ms="46322" started-at="2016-09-21T19:46:47Z" finished-at="2016-09-21T19:47:33Z">
-      <class name="ReportingTest">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:ReportingTest@77cd7a0]" name="beforeClass" is-config="true" duration-ms="12540" started-at="2016-09-21T22:46:47Z" finished-at="2016-09-21T22:46:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[demo.perfectomobile.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[lees@perfectomobile.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Welcome1701]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[mobileOS]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[5CDDB2F1]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[org.testng.TestRunner@71318ec4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ReportingTest@77cd7a0]" name="beforeMethod" is-config="true" duration-ms="236" started-at="2016-09-21T22:46:59Z" finished-at="2016-09-21T22:47:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ReportingTest.googleSearch1()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="googleSearch1()[pri:0, instance:ReportingTest@77cd7a0]" name="googleSearch1" duration-ms="7581" started-at="2016-09-21T22:47:00Z" finished-at="2016-09-21T22:47:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleSearch1 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ReportingTest@77cd7a0]" name="afterMethod" is-config="true" duration-ms="239" started-at="2016-09-21T22:47:07Z" finished-at="2016-09-21T22:47:07Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ReportingTest@77cd7a0]" name="afterMethod" is-config="true" duration-ms="162" started-at="2017-05-10T18:04:11Z" finished-at="2017-05-10T18:04:12Z">
           <params>
             <param index="0">
               <value>
@@ -176,7 +76,84 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ReportingTest@77cd7a0]" name="beforeMethod" is-config="true" duration-ms="237" started-at="2016-09-21T22:47:07Z" finished-at="2016-09-21T22:47:08Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:ReportingTest@77cd7a0]" name="afterClass" is-config="true" duration-ms="17713" started-at="2017-05-10T18:04:12Z" finished-at="2017-05-10T18:04:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2038ae61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ReportingTest -->
+    </test> <!-- Test Android -->
+    <test name="Test iOS" duration-ms="47398" started-at="2017-05-10T15:03:48Z" finished-at="2017-05-10T15:04:36Z">
+      <class name="ReportingTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:ReportingTest@73ad2d6]" name="beforeClass" is-config="true" duration-ms="10323" started-at="2017-05-10T18:03:49Z" finished-at="2017-05-10T18:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ps.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lees@perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome1701]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mobileOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[41EEF156EA10EDAB41632651F7AD2A4C4CB502ED]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@544fe44c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ReportingTest@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="181" started-at="2017-05-10T18:03:59Z" finished-at="2017-05-10T18:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ReportingTest.googleSearch1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="googleSearch1()[pri:0, instance:ReportingTest@73ad2d6]" name="googleSearch1" duration-ms="18904" started-at="2017-05-10T18:03:59Z" finished-at="2017-05-10T18:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ReportingTest@73ad2d6]" name="afterMethod" is-config="true" duration-ms="166" started-at="2017-05-10T18:04:18Z" finished-at="2017-05-10T18:04:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=googleSearch1 status=SUCCESS method=ReportingTest.googleSearch1()[pri:0, instance:ReportingTest@73ad2d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ReportingTest@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="164" started-at="2017-05-10T18:04:18Z" finished-at="2017-05-10T18:04:18Z">
           <params>
             <param index="0">
               <value>
@@ -187,26 +164,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="googleSearch2()[pri:0, instance:ReportingTest@77cd7a0]" name="googleSearch2" duration-ms="4651" depends-on-groups="a" started-at="2016-09-21T22:47:08Z" finished-at="2016-09-21T22:47:12Z">
+        <test-method status="PASS" signature="googleSearch2()[pri:0, instance:ReportingTest@73ad2d6]" name="googleSearch2" duration-ms="6650" started-at="2017-05-10T18:04:18Z" finished-at="2017-05-10T18:04:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearch2 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ReportingTest@77cd7a0]" name="afterMethod" is-config="true" duration-ms="224" started-at="2016-09-21T22:47:12Z" finished-at="2016-09-21T22:47:13Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ReportingTest@73ad2d6]" name="afterMethod" is-config="true" duration-ms="164" started-at="2017-05-10T18:04:25Z" finished-at="2017-05-10T18:04:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=googleSearch2 status=SUCCESS method=ReportingTest.googleSearch2()[pri:0, instance:ReportingTest@77cd7a0] output={null}]]]>
+                <![CDATA[[TestResult name=googleSearch2 status=SUCCESS method=ReportingTest.googleSearch2()[pri:0, instance:ReportingTest@73ad2d6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:ReportingTest@77cd7a0]" name="afterClass" is-config="true" duration-ms="20598" started-at="2016-09-21T22:47:13Z" finished-at="2016-09-21T22:47:33Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:ReportingTest@73ad2d6]" name="afterClass" is-config="true" duration-ms="10821" started-at="2017-05-10T18:04:25Z" finished-at="2017-05-10T18:04:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@71318ec4]]>
+                <![CDATA[org.testng.TestRunner@544fe44c]]>
               </value>
             </param>
           </params>
@@ -214,6 +191,6 @@
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- ReportingTest -->
-    </test> <!-- Test Android -->
+    </test> <!-- Test iOS -->
   </suite> <!-- Reporting Suite -->
 </testng-results>

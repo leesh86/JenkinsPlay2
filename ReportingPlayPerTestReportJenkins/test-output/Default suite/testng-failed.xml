@@ -5,8 +5,10 @@
     <classes>
       <class name="ReportingTest">
         <methods>
-          <include name="Test2"/>
-          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="googleSearch1"/>
+          <include name="googleSearch2"/>
+          <include name="beforeMethod"/>
         </methods>
       </class> <!-- ReportingTest -->
     </classes>

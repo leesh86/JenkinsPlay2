@@ -54,7 +54,7 @@ public class ReportingTest implements WebDriverProvider {
 		driver.findElement(By.xpath("//input[@id='lst-ib']")).submit();
 	}
 
-	@Test(dependsOnGroups = "a")
+	@Test(groups = "b")
 	public void googleSearch2() {
 
 		reportiumClient.testStep("Test2: perfecto mobile search");

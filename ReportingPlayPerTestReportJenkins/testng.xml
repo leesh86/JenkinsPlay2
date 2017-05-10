@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Reporting Suite" parallel="tests">
-	<parameter name="mcm" value="demo.perfectomobile.com" />
+	<parameter name="mcm" value="ps.perfectomobile.com" />
 	<parameter name="mcmUser" value="lees@perfectomobile.com" />
 	<parameter name="mcmPassword" value="Welcome1701" />
 	<parameter name="browserName" value="mobileOS" />
 
 	<test name="Test Android">
 		<parameter name="deviceName" value="30E9D3E3" />
+		<groups>
+			<run>
+				<include name="${groups}" />
+			</run>
+		</groups>
 		<classes>
-			<class name="ReportingTest" >
-				<methods>
-					<include name="googleSearch1" />
-				</methods>
-			</class>
+			<class name="ReportingTest" />
 		</classes>
 	</test> <!-- Test -->
 
-	<test name="Test iOS">
+<!-- 	<test name="Test iOS">
 		<parameter name="deviceName" value="41EEF156EA10EDAB41632651F7AD2A4C4CB502ED" />
 		<classes>
 			<class name="ReportingTest" />
 		</classes>
-	</test> 
+	</test>  -->
 </suite> <!-- Suite -->
