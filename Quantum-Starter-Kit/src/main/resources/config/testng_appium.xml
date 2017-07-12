@@ -12,11 +12,11 @@
 		<parameter name="driver.capabilities.deviceName" value="41EEF156EA10EDAB41632651F7AD2A4C4CB502ED"></parameter>
 		<parameter name="driver.capabilities.app" value="PRIVATE:applications/Recipes.ipa"></parameter>
 		<parameter name="env.resources" value="src/main/resources/ios"></parameter>
-		<groups>
+<!--  		<groups>
 			<run>
 				<include name="@recipes" />
 			</run>
-		</groups>
+		</groups> -->
 
 		<classes>
 			<class
@@ -25,7 +25,7 @@
 
 	</test>
 
-	<test name="IOS Test2" enabled="true">
+<!--  	<test name="IOS Test2" enabled="true">
 		<parameter name="driver.capabilities.bundleId" value="com.example.apple-samplecode.Recipes"></parameter>
 		<parameter name="driver.capabilities.deviceName" value="C37BAE1934AE7DD0AE3355F77146C7A65579CAA3"></parameter>
 		<parameter name="driver.capabilities.app" value="PRIVATE:applications/Recipes.ipa"></parameter>
@@ -41,7 +41,7 @@
 				name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
 		</classes>
 
-	</test>
+	</test> -->
 
 	<!-- <test name="Android Test" enabled="true"> <parameter name="driver.capabilities.appPackage" 
 		value="com.kohls.mcommerce.opal"></parameter> <parameter name="driver.capabilities.deviceName" 

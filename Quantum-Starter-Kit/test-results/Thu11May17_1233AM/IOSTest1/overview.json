@@ -1,0 +1,36 @@
+{
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "10-RC2",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "30-Nov-2016 00:39:15"
+    },
+    "run-parameters": {
+      "driver.capabilities.user": "lees@perfectomobile.com",
+      "driver.capabilities.password": "Welcome1701",
+      "env.resources": "src/main/resources/ios",
+      "driver.capabilities.deviceName": "41EEF156EA10EDAB41632651F7AD2A4C4CB502ED",
+      "driver.capabilities.app": "PRIVATE:applications/Recipes.ipa",
+      "resources": "src/main/resources/common",
+      "driver.capabilities.bundleId": "com.example.apple-samplecode.Recipes"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_65",
+      "os.arch": "amd64",
+      "host": "nb-lees-10",
+      "os.name": "Windows 10",
+      "user.name": "lees",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1494451983163,
+  "endTime": 0
+}

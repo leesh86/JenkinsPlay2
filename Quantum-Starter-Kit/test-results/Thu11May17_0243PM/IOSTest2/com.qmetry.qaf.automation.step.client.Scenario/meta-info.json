@@ -1,0 +1,45 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@recipes"
+        ],
+        "lineNo": 5.0,
+        "name": "Adding a recipe",
+        "referece": "src/main/resources/scenarios/Recipes.feature",
+        "sign": "src.main.resources.scenarios.Recipes.feature.Adding a recipe()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1494502985057,
+      "duration": 129948,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@recipes2"
+        ],
+        "lineNo": 20,
+        "name": "Adding a recipe",
+        "referece": "src/main/resources/scenarios/Recipes.feature",
+        "resultFileName": "Adding a recipervt",
+        "sign": "src.main.resources.scenarios.Recipes.feature.Adding a recipe()[pri:1003, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1494503115024,
+      "duration": 126564,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

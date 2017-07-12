@@ -1,0 +1,53 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "app": "PRIVATE:applications/Recipes.ipa",
+      "bundleId": "com.example.apple-samplecode.Recipes",
+      "deviceName": "41EEF156EA10EDAB41632651F7AD2A4C4CB502ED",
+      "password": "Welcome1701",
+      "driverClass": "io.appium.java_client.ios.IOSDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "platformName": "iOS",
+      "user": "lees@perfectomobile.com",
+      "cssSelectorsEnabled": true,
+      "applicationName": "Recipes"
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "10-RC2",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "30-Nov-2016 00:39:15"
+    },
+    "run-parameters": {
+      "driver.capabilities.user": "${lab.username}",
+      "driver.capabilities.password": "${lab.password}",
+      "env.resources": "src/main/resources/ios",
+      "driver.capabilities.deviceName": "41EEF156EA10EDAB41632651F7AD2A4C4CB502ED",
+      "driver.capabilities.app": "PRIVATE:applications/Recipes.ipa",
+      "resources": "src/main/resources/ios",
+      "driver.capabilities.bundleId": "com.example.apple-samplecode.Recipes"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_65",
+      "os.arch": "amd64",
+      "host": "nb-lees-10",
+      "os.name": "Windows 10",
+      "user.name": "lees",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1494451431006,
+  "endTime": 1494451431067
+}

@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Reporting Suite" parallel="tests">
 	<parameter name="mcm" value="ps.perfectomobile.com" />
-	<parameter name="mcmUser" value="${user}" />
-	<parameter name="mcmPassword" value="${password}" />
+	<parameter name="mcmUser" value="${lab.username}" />
+	<parameter name="mcmPassword" value="${lab.password}" />
 	<parameter name="browserName" value="mobileOS" />
 
 	<test name="Test Android">

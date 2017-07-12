@@ -1,7 +1,7 @@
-@recipes 
+#@recipes 
 Feature: Testing Quantum on a native app 
 
-
+@recipes 
 Scenario: Adding a recipe 
 	Given I am on the home page 
 	And I navigate to add another recipe 
@@ -10,10 +10,18 @@ Scenario: Adding a recipe
 	And I choose category 
 	And I choose a photo 
 	And I navigate back to home page 
-	Then I expect the new recipe named "Blabla" to be added to the top of the list
-	And I delete recipe in position number "1"
+	Then I expect the new recipe named "Blabla" to be added to the top of the list 
+	And I delete recipe in position number "1" 
 	Then I expect recipe name "Blabla" to be deleted 
 	Then I close application by name "Recipes" 
+	
+	
+@recipes2 
+Scenario: Adding a recipe 
+	Given I am on the home page 
+	And I navigate to add another recipe 
+	
+	
 	
 	#@tag2
 	#Scenario Outline: Title of your scenario outline
