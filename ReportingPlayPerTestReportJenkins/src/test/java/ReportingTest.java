@@ -75,8 +75,8 @@ public class ReportingTest implements WebDriverProvider {
 		DesiredCapabilities capabilities = new DesiredCapabilities(browserName, "", Platform.ANY);
 
 		// String host = mcm;
-		capabilities.setCapability("user", mcmUser);
-		capabilities.setCapability("password", mcmPassword);
+		capabilities.setCapability("user", System.getProperty("lab.username"));
+		capabilities.setCapability("password", System.getProperty("lab.password"));
 		capabilities.setCapability("deviceName", deviceName);
 
 		System.out.println(capabilities);
